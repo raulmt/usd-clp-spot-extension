@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "USD-CLP spot",
+  "version": "1.0.0",
+  "description": "To be on top of the spot price for USD-CLP",
+  "browser_action": {},
+  "author": "Raúl Montes <raulmt@gmail.com>",
+  "background": {
+    "persistent": false,
+    "scripts": ["background.js"]
+  },
+  "homepage_url": "https://github.com/raulmt",
+  "permissions": ["alarms", "https://mercadosenlinea.biceinversiones.cl/"],
+  "short_name": "USD-CLP"
+}

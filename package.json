@@ -1,0 +1,16 @@
+{
+  "name": "usd-clp-spot-extension",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:raulmt/usd-clp-spot-extension.git",
+  "author": "Raúl Montes <raulmt@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/chrome": "^0.0.122",
+    "fuse-box": "^3.7.1",
+    "terser": "^4.8",
+    "typescript": "^3.9.7",
+    "uglify-js": "^3.10.1"
+  },
+  "dependencies": {}
+}
