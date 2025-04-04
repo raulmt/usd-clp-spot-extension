@@ -4,9 +4,11 @@
   "version": "1.0.0",
   "description": "To be on top of the spot price for USD-CLP",
   "action": {},
-  "author": "Raúl Montes <raulmt@gmail.com>",
+  "author": {
+    "email": "raulmt@gmail.com"
+  },
   "background": {
-    "service_worker": "background.js",
+    "service_worker": "background/index.ts",
     "type": "module"
   },
   "homepage_url": "https://github.com/raulmt",
